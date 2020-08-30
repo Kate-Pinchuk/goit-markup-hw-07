@@ -5,6 +5,8 @@
 /* акцент #2196F3; */
 /* вторичный цвет фона #F5F4FA; */
 /* roboto-regular - latin_cyrillic */
+
+
 @font-face {
   font-family: "Roboto";
   font-style: normal;
@@ -188,6 +190,12 @@ html {
 .link:focus:not(.link-wrapper) {
   color: var(--accent-color);
 }
+.link-work {
+  font-weight: bold;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--primary-white-color);
+}
 .contacts-link:not(:last-child) {
   margin-right: 30px;
 }
@@ -200,13 +208,6 @@ html {
   vertical-align: middle;
   margin-right: 10px;
   fill: currentColor;
-}
-
-.link-work {
-  font-weight: bold;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: var(--primary-white-color);
 }
 .hero {
   background-image: linear-gradient(
